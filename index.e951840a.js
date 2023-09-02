@@ -2950,43 +2950,47 @@ var _app = require("../src/components/App/App");
 var _reactRouterDom = require("react-router-dom");
 var _errorPage = require("../src/components/ErrorPage/ErrorPage");
 var _questionsPage = require("../src/components/QuestionsPage/QuestionsPage");
-const router = (0, _reactRouterDom.createBrowserRouter)([
-    {
-        path: "/*",
-        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, false, {
-            fileName: "public/index.tsx",
-            lineNumber: 11,
-            columnNumber: 14
-        }, undefined),
-        errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorPage.ErrorPage), {}, void 0, false, {
-            fileName: "public/index.tsx",
-            lineNumber: 12,
-            columnNumber: 19
-        }, undefined)
-    },
-    {
-        path: "/questions",
-        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _questionsPage.QuestionsPage), {}, void 0, false, {
-            fileName: "public/index.tsx",
-            lineNumber: 14,
-            columnNumber: 34
-        }, undefined)
-    }
-]);
 const rootElement = document.getElementById("root");
 if (rootElement !== null) {
     const root = (0, _client.createRoot)(rootElement);
     root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterProvider), {
-            router: router
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.HashRouter), {
+            basename: "/",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, false, void 0, void 0),
+                        errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorPage.ErrorPage), {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "public/index.tsx",
+                        lineNumber: 22,
+                        columnNumber: 11
+                    }, undefined),
+                    ",",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/questions",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _questionsPage.QuestionsPage), {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "public/index.tsx",
+                        lineNumber: 23,
+                        columnNumber: 11
+                    }, undefined),
+                    ","
+                ]
+            }, void 0, true, {
+                fileName: "public/index.tsx",
+                lineNumber: 21,
+                columnNumber: 9
+            }, undefined)
         }, void 0, false, {
             fileName: "public/index.tsx",
-            lineNumber: 23,
+            lineNumber: 20,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "public/index.tsx",
-        lineNumber: 22,
+        lineNumber: 19,
         columnNumber: 5
     }, undefined));
 } else console.error("Root not found");
@@ -2996,7 +3000,7 @@ if (rootElement !== null) {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","../src/components/App/App":"aGX8h","react-router-dom":"9xmpe","../src/components/ErrorPage/ErrorPage":"lLDhO","../src/components/QuestionsPage/QuestionsPage":"R381C","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","../src/components/App/App":"aGX8h","react-router-dom":"9xmpe","../src/components/QuestionsPage/QuestionsPage":"R381C","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../src/components/ErrorPage/ErrorPage":"lLDhO"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -33343,7 +33347,76 @@ function getDoneFetcher(data) {
     return fetcher;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lLDhO":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"R381C":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2c91 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2c91.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "QuestionsPage", ()=>QuestionsPage);
+parcelHelpers.export(exports, "questionsData", ()=>questionsData);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _topMenu = require("../TopMenu/TopMenu");
+const QuestionsPage = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _topMenu.TopMenu), {}, void 0, false, {
+                fileName: "src/components/QuestionsPage/QuestionsPage.tsx",
+                lineNumber: 6,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "Questions draft"
+                    }, void 0, false, {
+                        fileName: "src/components/QuestionsPage/QuestionsPage.tsx",
+                        lineNumber: 8,
+                        columnNumber: 7
+                    }, undefined),
+                    questionsData.map(({ question, questionData, questionOwner, questionLikes, answers })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {}, void 0, false, {
+                            fileName: "src/components/QuestionsPage/QuestionsPage.tsx",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined))
+                ]
+            }, void 0, true, {
+                fileName: "src/components/QuestionsPage/QuestionsPage.tsx",
+                lineNumber: 7,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true);
+_c = QuestionsPage;
+const questionsData = [
+    {
+        question: "How much does trip from NY to LA cost?",
+        questionData: "13.08.2023",
+        questionOwner: "Adam",
+        questionLikes: 123,
+        answers: 12
+    },
+    {
+        question: "What is your favourite place in Milan?",
+        questionData: "13.08.2023",
+        questionOwner: "Adam",
+        questionLikes: 123,
+        answers: 12
+    }
+];
+var _c;
+$RefreshReg$(_c, "QuestionsPage");
+
+  $parcel$ReactRefreshHelpers$2c91.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../TopMenu/TopMenu":"huSkt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lLDhO":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2e80 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33428,75 +33501,6 @@ $RefreshReg$(_c, "ErrorPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./ErrorPage.scss":"e9f8i","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"e9f8i":[function() {},{}],"R381C":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$2c91 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2c91.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "QuestionsPage", ()=>QuestionsPage);
-parcelHelpers.export(exports, "questionsData", ()=>questionsData);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _topMenu = require("../TopMenu/TopMenu");
-const QuestionsPage = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _topMenu.TopMenu), {}, void 0, false, {
-                fileName: "src/components/QuestionsPage/QuestionsPage.tsx",
-                lineNumber: 6,
-                columnNumber: 5
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        children: "Questions draft"
-                    }, void 0, false, {
-                        fileName: "src/components/QuestionsPage/QuestionsPage.tsx",
-                        lineNumber: 8,
-                        columnNumber: 7
-                    }, undefined),
-                    questionsData.map(({ question, questionData, questionOwner, questionLikes, answers })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {}, void 0, false, {
-                            fileName: "src/components/QuestionsPage/QuestionsPage.tsx",
-                            lineNumber: 11,
-                            columnNumber: 11
-                        }, undefined))
-                ]
-            }, void 0, true, {
-                fileName: "src/components/QuestionsPage/QuestionsPage.tsx",
-                lineNumber: 7,
-                columnNumber: 5
-            }, undefined)
-        ]
-    }, void 0, true);
-_c = QuestionsPage;
-const questionsData = [
-    {
-        question: "How much does trip from NY to LA cost?",
-        questionData: "13.08.2023",
-        questionOwner: "Adam",
-        questionLikes: 123,
-        answers: 12
-    },
-    {
-        question: "What is your favourite place in Milan?",
-        questionData: "13.08.2023",
-        questionOwner: "Adam",
-        questionLikes: 123,
-        answers: 12
-    }
-];
-var _c;
-$RefreshReg$(_c, "QuestionsPage");
-
-  $parcel$ReactRefreshHelpers$2c91.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../TopMenu/TopMenu":"huSkt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["lFBK8","1xC6H","bcO2o"], "bcO2o", "parcelRequirecaec")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./ErrorPage.scss":"e9f8i","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"e9f8i":[function() {},{}]},["lFBK8","1xC6H","bcO2o"], "bcO2o", "parcelRequirecaec")
 
 //# sourceMappingURL=index.e951840a.js.map
