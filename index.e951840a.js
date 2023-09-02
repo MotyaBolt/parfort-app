@@ -2948,53 +2948,45 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _app = require("../src/components/App/App");
 var _reactRouterDom = require("react-router-dom");
+var _errorPage = require("../src/components/ErrorPage/ErrorPage");
 var _questionsPage = require("../src/components/QuestionsPage/QuestionsPage");
-// const router = createBrowserRouter([
-//   {
-//     path: "/*",
-//     element: <App />,
-//     errorElement: <ErrorPage />,
-//   },
-//   { path: "/questions", element: <QuestionsPage /> },
-// ]);
+const router = (0, _reactRouterDom.createBrowserRouter)([
+    {
+        path: "/*",
+        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, false, {
+            fileName: "public/index.tsx",
+            lineNumber: 11,
+            columnNumber: 14
+        }, undefined),
+        errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorPage.ErrorPage), {}, void 0, false, {
+            fileName: "public/index.tsx",
+            lineNumber: 12,
+            columnNumber: 19
+        }, undefined)
+    },
+    {
+        path: "/questions",
+        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _questionsPage.QuestionsPage), {}, void 0, false, {
+            fileName: "public/index.tsx",
+            lineNumber: 14,
+            columnNumber: 34
+        }, undefined)
+    }
+]);
 const rootElement = document.getElementById("root");
 if (rootElement !== null) {
     const root = (0, _client.createRoot)(rootElement);
     root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.HashRouter), {
-            basename: "/",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, false, void 0, void 0)
-                    }, void 0, false, {
-                        fileName: "public/index.tsx",
-                        lineNumber: 31,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/questions",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _questionsPage.QuestionsPage), {}, void 0, false, void 0, void 0)
-                    }, void 0, false, {
-                        fileName: "public/index.tsx",
-                        lineNumber: 32,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "public/index.tsx",
-                lineNumber: 30,
-                columnNumber: 9
-            }, undefined)
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterProvider), {
+            router: router
         }, void 0, false, {
             fileName: "public/index.tsx",
-            lineNumber: 29,
+            lineNumber: 23,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "public/index.tsx",
-        lineNumber: 28,
+        lineNumber: 22,
         columnNumber: 5
     }, undefined));
 } else console.error("Root not found");
@@ -3004,7 +2996,7 @@ if (rootElement !== null) {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","../src/components/App/App":"aGX8h","react-router-dom":"9xmpe","../src/components/QuestionsPage/QuestionsPage":"R381C","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","../src/components/App/App":"aGX8h","react-router-dom":"9xmpe","../src/components/QuestionsPage/QuestionsPage":"R381C","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../src/components/ErrorPage/ErrorPage":"lLDhO"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -33420,6 +33412,91 @@ $RefreshReg$(_c, "QuestionsPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../TopMenu/TopMenu":"huSkt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["lFBK8","1xC6H","bcO2o"], "bcO2o", "parcelRequirecaec")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../TopMenu/TopMenu":"huSkt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lLDhO":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2e80 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2e80.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ErrorPage", ()=>ErrorPage);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _errorPageScss = require("./ErrorPage.scss");
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+const ErrorPage = ()=>{
+    _s();
+    const error = (0, _reactRouterDom.useRouteError)();
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "error-page",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "Oops!"
+            }, void 0, false, {
+                fileName: "src/components/ErrorPage/ErrorPage.tsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "Sorry, an unexpected error has occurred."
+            }, void 0, false, {
+                fileName: "src/components/ErrorPage/ErrorPage.tsx",
+                lineNumber: 11,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                    children: error.statusText || error.message
+                }, void 0, false, {
+                    fileName: "src/components/ErrorPage/ErrorPage.tsx",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/ErrorPage/ErrorPage.tsx",
+                lineNumber: 12,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                    href: "/",
+                    className: "ErrorPage_Back_Link",
+                    children: "Back to home"
+                }, void 0, false, {
+                    fileName: "src/components/ErrorPage/ErrorPage.tsx",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/ErrorPage/ErrorPage.tsx",
+                lineNumber: 15,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/ErrorPage/ErrorPage.tsx",
+        lineNumber: 9,
+        columnNumber: 5
+    }, undefined);
+};
+_s(ErrorPage, "oAgjgbJzsRXlB89+MoVumxMQqKM=", false, function() {
+    return [
+        (0, _reactRouterDom.useRouteError)
+    ];
+});
+_c = ErrorPage;
+var _c;
+$RefreshReg$(_c, "ErrorPage");
+
+  $parcel$ReactRefreshHelpers$2e80.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./ErrorPage.scss":"e9f8i","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"e9f8i":[function() {},{}]},["lFBK8","1xC6H","bcO2o"], "bcO2o", "parcelRequirecaec")
 
 //# sourceMappingURL=index.e951840a.js.map
