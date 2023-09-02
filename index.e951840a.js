@@ -27187,11 +27187,11 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
-                basename: `/${undefined}`,
+                basename: "/ParfortApp",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: ""
+                            path: "/"
                         }, void 0, false, {
                             fileName: "src/components/App/App.tsx",
                             lineNumber: 12,
