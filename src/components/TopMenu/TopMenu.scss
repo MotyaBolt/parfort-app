@@ -1,0 +1,42 @@
+body {
+  font-family: "Lexend", sans-serif;
+  font-weight: 300;
+
+  margin: 0;
+
+  background-color: #002244;
+  color: white;
+}
+
+.TopMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 4em;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  background-color: #00538c;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.TopMenu_Links {
+  display: flex;
+  gap: 0.8em;
+  margin-right: 4em;
+}
+
+.TopMenu_Link {
+  font-size: 1em;
+  color: white;
+  border: 1px solid #00538c;
+  padding: 0.4em;
+
+  &:hover {
+    border: 1px solid white;
+  }
+}

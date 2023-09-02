@@ -1,0 +1,20 @@
+.Logo {
+  display: flex;
+  gap: 0.2em;
+  align-items: center;
+
+  margin-left: 2em;
+
+  font-size: 1.8em;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+
+  color: white;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
