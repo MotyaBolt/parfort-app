@@ -27217,7 +27217,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../TopMenu/TopMenu":"huSkt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./App.scss":"hD9zU"}],"huSkt":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../TopMenu/TopMenu":"huSkt","./App.scss":"hD9zU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"huSkt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8013 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27305,7 +27305,45 @@ $RefreshReg$(_c1, "TopMenu");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./TopMenu.scss":"6AHmP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Logo":"4ybag"}],"6AHmP":[function() {},{}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./TopMenu.scss":"6AHmP","./Logo":"4ybag","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6AHmP":[function() {},{}],"4ybag":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5c15 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5c15.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Logo", ()=>Logo);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _logoScss = require("./Logo.scss");
+const Logo = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+        href: "/",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "Logo",
+            children: "PARFORT"
+        }, void 0, false, {
+            fileName: "src/components/TopMenu/Logo.tsx",
+            lineNumber: 6,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/TopMenu/Logo.tsx",
+        lineNumber: 5,
+        columnNumber: 3
+    }, undefined);
+_c = Logo;
+var _c;
+$RefreshReg$(_c, "Logo");
+
+  $parcel$ReactRefreshHelpers$5c15.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Logo.scss":"3nwC4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3nwC4":[function() {},{}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27473,45 +27511,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"4ybag":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$5c15 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$5c15.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Logo", ()=>Logo);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _logoScss = require("./Logo.scss");
-const Logo = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-        href: "/",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "Logo",
-            children: "PARFOT"
-        }, void 0, false, {
-            fileName: "src/components/TopMenu/Logo.tsx",
-            lineNumber: 6,
-            columnNumber: 5
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/TopMenu/Logo.tsx",
-        lineNumber: 5,
-        columnNumber: 3
-    }, undefined);
-_c = Logo;
-var _c;
-$RefreshReg$(_c, "Logo");
-
-  $parcel$ReactRefreshHelpers$5c15.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Logo.scss":"3nwC4"}],"3nwC4":[function() {},{}],"hD9zU":[function() {},{}],"9xmpe":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"hD9zU":[function() {},{}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.14.2
  *
@@ -33428,7 +33428,7 @@ $RefreshReg$(_c, "ErrorPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./ErrorPage.scss":"e9f8i"}],"e9f8i":[function() {},{}],"R381C":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./ErrorPage.scss":"e9f8i","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"e9f8i":[function() {},{}],"R381C":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2c91 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33497,6 +33497,6 @@ $RefreshReg$(_c, "QuestionsPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../TopMenu/TopMenu":"huSkt"}]},["lFBK8","1xC6H","bcO2o"], "bcO2o", "parcelRequiref885")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../TopMenu/TopMenu":"huSkt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["lFBK8","1xC6H","bcO2o"], "bcO2o", "parcelRequiref885")
 
 //# sourceMappingURL=index.e951840a.js.map

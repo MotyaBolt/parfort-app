@@ -3,6 +3,6 @@ import "./Logo.scss";
 
 export const Logo = () => (
   <a href="/">
-    <div className="Logo">PARFOT</div>
+    <div className="Logo">PARFORT</div>
   </a>
 );
