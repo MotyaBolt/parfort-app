@@ -2950,47 +2950,43 @@ var _app = require("../src/components/App/App");
 var _reactRouterDom = require("react-router-dom");
 var _errorPage = require("../src/components/ErrorPage/ErrorPage");
 var _questionsPage = require("../src/components/QuestionsPage/QuestionsPage");
+const router = (0, _reactRouterDom.createBrowserRouter)([
+    {
+        path: "/*",
+        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, false, {
+            fileName: "public/index.tsx",
+            lineNumber: 11,
+            columnNumber: 14
+        }, undefined),
+        errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorPage.ErrorPage), {}, void 0, false, {
+            fileName: "public/index.tsx",
+            lineNumber: 12,
+            columnNumber: 19
+        }, undefined)
+    },
+    {
+        path: "/questions",
+        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _questionsPage.QuestionsPage), {}, void 0, false, {
+            fileName: "public/index.tsx",
+            lineNumber: 14,
+            columnNumber: 34
+        }, undefined)
+    }
+]);
 const rootElement = document.getElementById("root");
 if (rootElement !== null) {
     const root = (0, _client.createRoot)(rootElement);
     root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.HashRouter), {
-            basename: "/",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, false, void 0, void 0),
-                        errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorPage.ErrorPage), {}, void 0, false, void 0, void 0)
-                    }, void 0, false, {
-                        fileName: "public/index.tsx",
-                        lineNumber: 22,
-                        columnNumber: 11
-                    }, undefined),
-                    ",",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/questions",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _questionsPage.QuestionsPage), {}, void 0, false, void 0, void 0)
-                    }, void 0, false, {
-                        fileName: "public/index.tsx",
-                        lineNumber: 23,
-                        columnNumber: 11
-                    }, undefined),
-                    ","
-                ]
-            }, void 0, true, {
-                fileName: "public/index.tsx",
-                lineNumber: 21,
-                columnNumber: 9
-            }, undefined)
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterProvider), {
+            router: router
         }, void 0, false, {
             fileName: "public/index.tsx",
-            lineNumber: 20,
+            lineNumber: 23,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "public/index.tsx",
-        lineNumber: 19,
+        lineNumber: 22,
         columnNumber: 5
     }, undefined));
 } else console.error("Root not found");
