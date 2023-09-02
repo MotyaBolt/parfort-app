@@ -1,7 +1,7 @@
 {
-  "name": "journeyjumble",
+  "name": "parfort",
   "version": "1.0.0",
-  "description": "JourneyJumble",
+  "description": "Parfort",
   "scripts": {
     "start": "parcel public/index.html --port 7777",
     "build": "parcel build public/index.html"

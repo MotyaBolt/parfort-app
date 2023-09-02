@@ -33497,6 +33497,6 @@ $RefreshReg$(_c, "QuestionsPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../TopMenu/TopMenu":"huSkt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["lFBK8","1xC6H","bcO2o"], "bcO2o", "parcelRequiref885")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../TopMenu/TopMenu":"huSkt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["lFBK8","1xC6H","bcO2o"], "bcO2o", "parcelRequirecaec")
 
 //# sourceMappingURL=index.e951840a.js.map
