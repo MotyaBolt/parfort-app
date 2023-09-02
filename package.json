@@ -1,7 +1,7 @@
 {
   "name": "parfort",
   "version": "1.0.0",
-  "homepage": "https://MotyaBolt.github.io/ParfortApp",
+  "homepage": "https://MotyaBolt.github.io/ParfortApp/",
   "description": "Parfort",
   "scripts": {
     "predeploy": "rm -rf dist && parcel build public/index.html --no-source-maps --public-url ./",
