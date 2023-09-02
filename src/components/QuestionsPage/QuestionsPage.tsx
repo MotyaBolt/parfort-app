@@ -2,17 +2,14 @@ import React from "react";
 import { TopMenu } from "../TopMenu/TopMenu";
 
 export const QuestionsPage = () => (
-  <>
-    <TopMenu />
-    <div>
-      <h1>Questions draft</h1>
-      {questionsData.map(
-        ({ question, questionData, questionOwner, questionLikes, answers }) => (
-          <div></div>
-        )
-      )}
-    </div>
-  </>
+  <div>
+    <h1>Questions draft</h1>
+    {questionsData.map(
+      ({ question, questionData, questionOwner, questionLikes, answers }) => (
+        <div></div>
+      )
+    )}
+  </div>
 );
 
 export const questionsData = [
