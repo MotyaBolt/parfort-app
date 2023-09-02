@@ -1,8 +1,11 @@
 {
   "name": "parfort",
   "version": "1.0.0",
+  "homepage": "https://MotyaBolt.github.io/ParfortApp",
   "description": "Parfort",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "parcel public/index.html --port 7777",
     "build": "parcel build public/index.html"
   },
