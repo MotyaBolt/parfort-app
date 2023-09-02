@@ -4,7 +4,7 @@
   "homepage": "https://MotyaBolt.github.io/ParfortApp/",
   "description": "Parfort",
   "scripts": {
-    "predeploy": "rm -rf dist && parcel build public/index.html --no-source-maps --public-url ./",
+    "predeploy": "rm -rf dist && parcel build public/index.html --no-source-maps --public-url /ParfortApp/",
     "deploy": "gh-pages -d dist",
     "start": "parcel public/index.html --port 7777",
     "build": "parcel build public/index.html"
