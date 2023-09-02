@@ -2952,7 +2952,7 @@ var _errorPage = require("../src/components/ErrorPage/ErrorPage");
 var _questionsPage = require("../src/components/QuestionsPage/QuestionsPage");
 const router = (0, _reactRouterDom.createBrowserRouter)([
     {
-        path: "/",
+        path: "/*",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, false, {
             fileName: "public/index.tsx",
             lineNumber: 11,
