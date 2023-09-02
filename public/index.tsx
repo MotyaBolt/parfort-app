@@ -7,7 +7,7 @@ import { QuestionsPage } from "../src/components/QuestionsPage/QuestionsPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/*",
     element: <App />,
     errorElement: <ErrorPage />,
   },
