@@ -5,8 +5,8 @@ import TravelExploreRoundedIcon from "@mui/icons-material/TravelExploreRounded";
 
 const topMenuLinks = [
   {
-    href: "/news",
-    label: "News",
+    href: "/",
+    label: "Home",
   },
   {
     href: "/questions",
