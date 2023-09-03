@@ -1,3 +1,3 @@
 import React from "react";
 
-export const Home = () => <div>Home</div>;
+export const Home = () => <h1>Home draft</h1>;

@@ -1,7 +1,6 @@
 import React from "react";
 import "./TopMenu.scss";
 import { Logo } from "./Logo";
-import TravelExploreRoundedIcon from "@mui/icons-material/TravelExploreRounded";
 
 const topMenuLinks = [
   {
