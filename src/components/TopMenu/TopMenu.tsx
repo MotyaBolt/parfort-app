@@ -12,8 +12,8 @@ const topMenuLinks = [
     label: "Questions",
   },
   {
-    href: "/routes",
-    label: "Routes",
+    href: "/trips",
+    label: "Trips",
   },
   {
     href: "/account",
