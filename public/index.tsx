@@ -5,6 +5,7 @@ import { ErrorPage } from "../src/components/ErrorPage/ErrorPage";
 import { QuestionsPage } from "../src/components/QuestionsPage/QuestionsPage";
 import { Home } from "../src/components/Home/Home";
 import { TopMenu } from "../src/components/TopMenu/TopMenu";
+import { Footer } from "../src/components/Footer/Footer";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ if (rootElement !== null) {
     <React.StrictMode>
       <TopMenu />
       <RouterProvider router={router} />
+      <Footer />
     </React.StrictMode>
   );
 } else {
